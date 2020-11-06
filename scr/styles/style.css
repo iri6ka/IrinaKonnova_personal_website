@@ -1,0 +1,90 @@
+@import "normalize.css";
+
+
+/*
+COLORS:
+dark blue: #1B2B40 
+light blue: #C4DDF2 
+medium blue: #699EBF 
+bluish green: #3B4E59 
+beige: #D9B19A
+*/
+
+ * {
+     margin: 0;
+     padding: 10px;
+     box-sizing: border-box;
+    
+
+
+}
+ .body {
+     font-family: "Roboto", sans-serif;
+     font-weight: 300;
+     font-size: 16px;
+     line-height: 1.7;
+     color: #1B2B40;
+     padding: 30px;
+ }
+
+ .header {
+     height: 95vh;
+     background-image: url(/images/hero.jpg);
+     background-position: top;
+     background-size: cover;
+    }
+
+
+#p1 {
+    color: white;
+    opacity: 40%;
+}
+
+
+.logo-box {
+    position: absolute;
+    left: 40px;
+    position: relative;
+}
+
+.logo {
+    height: 100px;
+}
+
+.container {
+    background-color: #eee;
+    width: 1000px;
+    margin: 30px auto;
+    height: 200px auto;
+    
+    display: grid;
+    grid-template-rows: 150px;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-gap: 30px;
+    
+  }
+  .item {
+    padding: 20px;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+  }
+
+    
+    /* add sass stylesheet
+    &--1 {
+      background-color: orange;
+    }
+    
+    &--2 {
+        background-color: green;
+    }
+    &--2 {
+        background-color: green;
+    }*/
+
+
+/*
+Add gradient to the text tex over the header image
+*/
