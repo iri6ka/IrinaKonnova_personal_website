@@ -14,28 +14,41 @@
     <title>Irina Konnova Website</title>
 </head>
 <body>
-    <nav>
-        <div class="logo-box">
-            <img src="/images/Page_icons/logo.png" alt="logo" class="logo" size=300%>
-            
-            
-            <a>Home</a>   
-            <a>Blog</a>
-            <a>Portfolio</a>
-            <a>About</a>
-            <a>Contact</a>
-        </div>
-    </nav>
-
-        <header class="header">
-              </div>
-                <p id="p1">Welcome to my personal page. Here you can learn a bit more about myself, my portfolio and find contact details.</p>
-                </div>
+<!--  Navigation--> 
+    <div class="nav">
+        <!--  logo image-->       
+         <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand" href="#">
+              <img src="/images/Page_icons/logo.png" width="auto" height="50px" alt="page logo">
+            </a>
+        </nav>
+    </div>
+       
+        <!-- handburger menu--> 
+            <label for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle"/>
+            <div class="menu">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="blog.html">Blog</a>
+                    <a href="portfolio.html">Portfolio</a>
+                    <a href="contact.html"><span>Contact</span></a>
+                    
             </div>
-        </header>
+
+    </div>
+<!--  Page content--> 
+    <div class="container1">
+        <img src="/images/hero.jpg" alt="Self portrait" style="width:100%;">
+            <div class="text-block">
+                <h1>Hello, World</h4>
+                <h2>Welcome to my personal page</h3>
+            </div>
+    </div>
+
         <h1>Features</h1>
 
-    <div class="container">
+    <div class="container2">
         <div class="item--1">
             <h1>Code</h1>
             <p>This website is my first code project</p>
