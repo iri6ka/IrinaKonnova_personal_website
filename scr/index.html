@@ -9,61 +9,65 @@
     <link rel="stylesheet" href="/scr/styles/style.css">
          <!-- Code for page icon--> 
     <link rel="shortcut icon" type="image/png" href="../images/Page_icons/favicon.png">
-
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    rel="stylesheet">
    
     <title>Irina Konnova Website</title>
 </head>
 <body>
 <!--  Navigation--> 
-    <div class="nav">
-        <!--  logo image-->       
-         <nav class="navbar navbar-light bg-light">
-                <a class="navbar-brand" href="#">
-              <img src="/images/Page_icons/logo.png" width="auto" height="50px" alt="page logo">
+    <header class="header">     
+        <nav class="navbar navbar-light bg-light">
+            <a class="navbar-brand" href="#">
+                <img src="/images/Page_icons/logo.png" width="auto" height="50px" alt="page logo">
             </a>
         </nav>
-    </div>
-       
-        <!-- handburger menu--> 
-            <label for="toggle">&#9776</label>
-            <input type="checkbox" id="toggle"/>
-            <div class="menu">
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="blog.html">Blog</a>
-                    <a href="portfolio.html">Portfolio</a>
-                    <a href="contact.html"><span>Contact</span></a>
-                    
-            </div>
-
-    </div>
-<!--  Page content--> 
-    <div class="container1">
+        <!-- hamburger menu-->
+                <input class="menu-btn" type="checkbox" id="menu-btn" />
+                <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
+            
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+    </header>
+    <!-- main picture -->
+    <div class="container">
         <img src="/images/hero.jpg" alt="Self portrait" style="width:100%;">
             <div class="text-block">
-                <h1>Hello, World</h4>
-                <h2>Welcome to my personal page</h3>
+                <h1 style="font-size:3vw;">Hello, World</h4>
+                <h2 style="font-size:2vw;">Welcome to my personal page</h3>
             </div>
     </div>
 
-        <h1>Features</h1>
-
-    <div class="container2">
-        <div class="item--1">
-            <h1>Code</h1>
-            <p>This website is my first code project</p>
+        <h1 style="font-size:3vw;">Features</h1>
+<!-- cards on main page-->
+        <div class="row">
+            <div class="column">  
+              <div class="card">
+                <i class="material-icons">code</i>
+                <h4 card="card-title"><b>Code</b></h4>
+                <p class="card-text">This website is my first code project</p>
+              </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <i class="material-icons">phone_android</i>
+                <h4 card="card-title"><b>Mobile Friendly</b></h4>
+                <p class="card-text">This page has been modified to suit various formats and pages</p>
+                </div>
+            </div>
+            <div class="column">
+              <div class="card">
+                <i class="material-icons">camera</i>
+                <h4 class="card-title"><b>Code</b></h4>
+                <p class="card-text">My page uses unique logos and photos</p>
+              </div>
+            </div>
+           
         </div>
-        <div class="item--2">
-            <h1>Mobile friendly</h1>
-            <p>This page has been modified to suit various formats and pages</p>
-        </div>
-
-        <div class="item--3">
-            <h1>Unique styles</h1>
-            <p>My page uses unique logos and photos</p>
-        </div>
-
-      </div>
 
 
 

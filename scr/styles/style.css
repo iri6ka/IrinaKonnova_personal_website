@@ -11,149 +11,204 @@ beige: #D9B19A
 */
 
  html, body {
-     margin: 0;
-     padding: 10px;
+     margin: 0px;
+     padding: 0;
      box-sizing: border-box;
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ }
+
+
+.body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin: 0;
+    line-height: 1.7;
+    color: #1B2B40;
+    padding: 30px;
+}
+
+
+/*Navigation*/
+ .header {
+     background-color: white;
+     box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
+     position: fixed;
+     float: right;
+     width: 100%;
+     z-index: 2;
+ }
+
+ .header ul{
+     margin: 0;
+     padding:0;
+     list-style:none;
+     overflow: hidden;
+     background-color: white;
+ }
+
+ .header ul a{
+     display: block;
+   /*  outline: 1px solid red;*/
+     padding: 20px;
+  /*   border-right: 1px solid grey;*/
+     text-decoration: none;
+ }
+ .header ul a:hover{
+     background-color: #C4DDF2;
+     color: #D9B19A;
+ }
+
+ .navbar-brand {
+     float: left;
+     display: block;
+     font-size: 2em;
+     padding:10px 20px;
+ }
+
+ .header .menu{
+     clear: both;
+     max-height:0;
+     transition:max-height .2s ease-out;
  }
     
- /*this is nav bar with the handburger*/ 
- .nav {
+ .header .menu-icon{
+     /*outline: 1px solid red;*/
+     padding: 28px 20px;
+     position: relative;
+     cursor: pointer;
+     float: right;
+ }
+
+ .header .menu-icon .nav-icon{
+     background: #333;
+     display: block;
+     height: 2px;
+     width: 18px;
+     position: relative;
+     transition: background .2s ease-out;  
+ }
+
+ .header .menu-icon .nav-icon:before {
+    background: #333333;
+    width: 100%;
+    content: "";
+    display: block;
+    height: 100%;
     position: absolute;
-    align-content: right;
-    border-bottom: 1px solid white;
-    height: 70px;
-    line-height: 70px;
+    transition: all .2s ease-out;
+    top: 5px;
+}
+.header .menu-icon .nav-icon:after {
+    background: #333333;
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: block;
+    position: absolute;
+    transition: all .2s ease-out;
+    top: -5px;
 }
 
-.navbar-brand {
-    position: relative;
-    width: auto;
-    height: 50px;
-    background-position: -10000px 1.2em;
-}
-.menu {
-    margin: 0 30px 0 0;
-}
-
-.menu a {
-    clear: right;
-    text-decoration: none;
-    color: #3B4E59;
-    margin: 0 10px;
-    line-height: 70px;
-}
-
-label {
-    margin: 0 30px 0 0;
-    font-size: 26 px;
-    line-height: 70px;
-    display: none;
-    width: 26 px;
-    float: right;
-}
-#toggle {
+/*Navigation Animation*/
+.header .menu-btn {
     display: none;
 }
+.header .menu-btn:checked ~ .menu{
+    max-height: 600px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .nav-icon{
+   background: transparent;
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:before{
+    transform: rotate(-45deg);
+    top:0;
+
+}
+.header .menu-btn:checked ~ .menu-icon .nav-icon:after{
+    transform: rotate(45deg);
+    top:0;
+}
+
 /*media screen properties*/
-
-@media only screen and (max-width: 500px) {
-    label{
-        display: block;
-        cursor: pointer;
+@media (min-width: 48em){
+    .header li {
+        float: left;
     }
-    .menu {
-        text-align: center;
-        width: 100%;
+    .header li a{
+        padding: 20px 30px;
+        color:#3B4E59; 
+    }
+    .header .menu {
+        clear: none;
+        float: right;
+        max-height: none;
+    }
+    .header .menu-icon {
         display: none;
     }
-    .menu a {
-        display: block;
-        border-bottom: 1px solid white;
-        margin: 0;
-    }
-    #toggle:checked + .menu {
-        display: block;
-    }
-    .logo {
-        display: block;
-        align-self: center;
-    }
-    .text-block {
-        bottom: 5%;
-        right: 5%;
-        font-size: 50%;
-        background-color: rgb(255, 255, 255, 0.5);
-        color:#1B2B40;
-        padding-left: 10px;
-        padding-right: 10px;
+
+    .text-block h1{
+        size: 1em;
     }
     .container2 {
         display: grid;
-        grid-template-rows: repeat(3, 150fr);
-        grid-template-columns: 150px;
+        grid-template-rows: auto;
+        grid-template-columns: repeat(3fr 150px);
         grid-gap: 30px;
     }
+    .card .material-icons {
+        font-size: 6em;
+        max-height: 160px;
+    }  
+    /*responsive columns & cards on main page*/      
+   .row{
+       margin: 0 -5px;
+    }
+    .column {
+        float: left;
+        width: 30%;
+        padding: 0 10px;
+       align-content: center;
+    }
 }
+/* column cards */
+    .card{ 
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
 
- .body {
-     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-size: 16px;
-     line-height: 1.7;
-     color: #1B2B40;
-     padding: 30px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+    padding-bottom: 20px;
+  }
+
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+
+
+ .container{
+     width: 100%;
+     height: auto;
  }
 
-
- .container1 {
-     position: relative;
- }
-
- .text-block {
+ .container .text-block {
      position: absolute;
-     align-content: center;
-     bottom: 20%;
-     right: 10%;
+     top:150px;
+     left: 50%;
      background-color: rgb(255, 255, 255, 0.5);
      color:#1B2B40;
      padding-left: 20px;
      padding-right: 20px;
  }
-
-.container2 {
-    background-color: #eee;
-    width: 1000px;
-    margin: 30px auto;
-    height: 200px auto;
-    
-    display: grid;
-    grid-template-rows: 150px;
-    grid-template-columns: repeat(3, 1fr);
-    
-    grid-gap: 30px;
-    
-  }
-  .item {
-    padding: 20px;
-    font-size: 30px;
-    font-family: sans-serif;
-    color: white;
-  }
-
-    
-    /* add sass stylesheet
-    &--1 {
-      background-color: orange;
-    }
-    
-    &--2 {
-        background-color: green;
-    }
-    &--2 {
-        background-color: green;
-    }*/
+.h1 {
+    text-align: center;}
 
 
-/*
-Add gradient to the text tex over the header image
-*/
