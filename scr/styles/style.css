@@ -32,7 +32,7 @@ beige: #D9B19A
  .header {
      background-color: white;
      box-shadow: 4px 4px 4px 0 rgba(0, 0, 0, 0.1);
-     position: fixed;
+     position: flex;
      float: right;
      width: 100%;
      z-index: 2;
@@ -197,10 +197,12 @@ beige: #D9B19A
  .container{
      width: 100%;
      height: auto;
+     padding:0 0 5px;
  }
 
  .container .text-block {
      position: absolute;
+     flex-direction: center;
      top:150px;
      left: 50%;
      background-color: rgb(255, 255, 255, 0.5);
@@ -208,7 +210,45 @@ beige: #D9B19A
      padding-left: 20px;
      padding-right: 20px;
  }
+ .intro{
+     padding-top: 20px;
+ }
 .h1 {
     text-align: center;}
 
+    .flex-container {
+        display: flex;
+        background-color: white;
+        justify-content: space-evenly;
+}
 
+.flex-container > div {
+        background-color: #C4DDF2;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        text-decoration: none;;
+}
+#avatar {
+    border-radius: 50%;
+}
+
+.portfolio-text{
+    padding: 20px;
+}
+.loader {
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
