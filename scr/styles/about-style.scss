@@ -1,0 +1,14 @@
+.flex-container {
+    display: flex;
+    background-color: white;
+    justify-content: space-evenly;
+
+    div {    background-color: #C4DDF2;
+        color: white;
+        width: 100px;
+        margin: 10px;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        text-decoration: none;}
+}
