@@ -1,0 +1,80 @@
+@import "normalize.css";
+
+
+.contact-section {
+    background-color: grey;
+    display: flex;
+    height: 90vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.h1 {
+      margin: 0;
+      align-self: center;
+    }
+
+
+.contact-contents {
+    display: flex;
+    justify-content: space-around;
+    height: 60%;
+}
+    .form {
+      display: flex;
+      flex-direction: column;
+    }
+
+.contact-form .div {
+    margin:1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+.contact-message {
+    flex-grow: 1;
+}
+    .textarea {
+      flex-grow: 1;
+    }
+
+.submit-button:hover {
+    background-color: #00AA66;
+    color: white;
+    transition: 1s
+}
+
+
+@media screen and (min-width: 600px) {
+    .small-map {
+        display: block;
+    }
+
+    .contact-contents {
+        flex-direction: column-reverse;
+        height: 90%;
+        margin: 0 auto
+    }
+}
+
+@media only screen and (min-width: 800px ) {
+
+.medium-map {
+    display: block;
+}
+
+.small-map {
+    display: none
+}
+
+.contact-section {
+    justify-content: start;}
+.contact-section .h1 {
+ margin-bottom: 12rem;
+    }    
+}
+
+.contact-contents {
+        flex-direction: row;
+        margin: 0;
+        height: 50%;
+    }
