@@ -1,35 +1,8 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:500|Roboto+Mono:300&display=swap');
-
-$heading-font: "Roboto", sans-serif;
-$sub-heading-font: "Roboto Mono", monospace;
-
-
-$dark-blue: #1B2B40;
-$light-blue: #C4DDF2;
-$medium-blue: #699EBF;
-$bluish-green: #3B4E59;
-$beige: #D9B19A;
-
-
-@import "index";
+@import "variables";
 @import "navigation";
-@import "blog-page";
-@import "contact-page";
-@import "about-page";
-@import "projects-page";
-
-*{
-    margin: 5px;
-    padding: 5px;
-}
-
-body{
-   background-color: white;
-   width: 100vw;
-   color: $dark-blue 
-}
-
-
-// ##################################################
-// TITLE ANIMATIONS
-// ##################################################
+@import "normalize.css";
+@import "index";
+@import "about";
+@import "blog";
+@import "contact";
+@import "portfolio";
