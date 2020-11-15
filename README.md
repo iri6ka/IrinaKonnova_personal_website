@@ -19,30 +19,30 @@ The purpose of this website to create a first website which would help me to bui
 The website consists of several pages: Index page (main), About Me, Portfolio, Blog and Contact Me page. I tried to make website be responsive to various platforms and screens, however my main focus was given to a more mobile friendly website. All pages have the same navigation menu bar at the top of the screen, which changes with wider screens and hidden menu options become visible. The website has a footer with links to social media pages. All pages are accessible via menu. Contact page has link to social media pages as well as to the Resume. All links are open in a new window for convenience. Roboto fonts over the family of Google Fonts is used throughout the website. Website uses
 
 ### Site-wide features:
-..* Webstie was built with a minimalistic style and will be updated along the way of my studies at [Coder Academy](https://www.coderacademy.edu.au/) .
+*  Webstie was built with a minimalistic style and will be updated along the way of my studies at [Coder Academy](https://www.coderacademy.edu.au/)
 
-..* There are 5 colors used within the website and they are based on the main colors of the Hero Photograph on the main page.
+* There are 5 colors used within the website and they are based on the main colors of the Hero Photograph on the main page.
 
-..* Website contains photographs made by myself. I wanted to highligh that photography is one of my skills and showcase a few examples of my photo portfolio.
+* Website contains photographs made by myself. I wanted to highligh that photography is one of my skills and showcase a few examples of my photo portfolio.
 
-..* Hover over menu animation while highlighting selected options in the menu.
+* Hover over menu animation while highlighting selected options in the menu.
 
-..* Consistent usage of semantic html as well as CSS design features, including flexbox, buttons, cards, box-shadow styling and others.
+* Consistent usage of semantic html as well as CSS design features, including flexbox, buttons, cards, box-shadow styling and others.
 
 
 ### Specific page features:
 
 *About me* 
 
-..* A hover arrow animation used for My Resume button.
+* A hover arrow animation used for My Resume button.
 
 *Blog*
 
-..* Cards are used for the which give a nice modern look and feel to the provided content. Cards are also used on the Main page and About me.
+* Cards are used for the which give a nice modern look and feel to the provided content. Cards are also used on the Main page and About me.
 
 *Portfolio*
 
-..* Animated loader was used to show that the development of projects is in process.
+* Animated loader was used to show that the development of projects is in process.
 
 
 ## **SITEMAP**
@@ -93,17 +93,17 @@ The target audience for this project are educators and cohorts of [Coder Academy
 
 While I was developping this project, I used various applications, platforms and scripts:
 
-..* HTML
+* HTML
 
-..* CSS
+* CSS
 
-..* Git & Git Hub
+* Git & Git Hub
 
-..* Figma
+* Figma
 
-..* Google Slides
+* Google Slides
 
-..* AWS for website deployment
+* AWS for website deployment
 
 ---
 
