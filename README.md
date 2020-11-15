@@ -53,29 +53,29 @@ The website consists of several pages: Index page (main), About Me, Portfolio, B
 
 ### Main page
 
-[Screenshot 1](docs/screenshot-1.png?raw=true)
+[Screenshot 1](docs/Screenshot-1.png)
 
-[screenshot 2](docs/screenshot-2.png?raw=true)
+[screenshot 2](docs/Screenshot-2.png)
 
 ### About page
 
-[Screenshot 3](docs/screenshot-3.png?raw=true)
+[Screenshot 3](docs/Screenshot-3.png)
 
 ### Blog page
 
-[Screenshot 4](docs/screenshot-4.png?raw=true)
+[Screenshot 4](docs/Screenshot-4.png)
 
-[Screenshot 5](docs/screenshot-5.png?raw=true)
+[Screenshot 5](docs/Screenshot-5.png)
 
-[Screenshot 6](docs/screenshot-6.png?raw=true)
+[Screenshot 6](docs/Screenshot-6.png)
 
 ### Portfolio page
 
-[Screenshot 7](docs/screenshot-7.png?raw=true)
+[Screenshot 7](docs/Screenshot-7.png)
 
 ### Contact page
 
-[Screenshot 8](docs/screenshot-8.png?raw=true)
+[Screenshot 8](docs/Screenshot-8.png)
 
 ### **Wireframes**
 
