@@ -112,12 +112,11 @@ beige: #D9B19A
 /*footer styling*/
 
 .footer {
-    position: flex-end;
+    display: flex-end;    
     padding-top: 10px;
-    box-shadow: 0 0 25px rgb(255, 255, 255, 0.5);
     left: 0;
     bottom: 0;
-    width: 100%;
+    width: auto;
     background-color: white;
     text-align: center;
     }
@@ -145,11 +144,8 @@ beige: #D9B19A
 .fa {
         background: white;
         color: #1B2B40;
+}
 
-    }
-#footer-bottom {
-        position: fixed;
-    }
 
 /*footer styling end*/
 
@@ -268,9 +264,8 @@ beige: #D9B19A
 
     .portfolio-text{
         padding: 20px;
-        justify-content: flex-end;
-        height: 400px;
-    }
+        height: 500px;
+      }
 
 
 /*Button on Contact page*/

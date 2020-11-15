@@ -1,0 +1,95 @@
+commit d83cd7e945ba4f071779bd5aa5459561ecc0bc31
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 18:02:22 2020 +1100
+
+    added SRI to files
+
+commit 7fee0f4cf0634cb509a36b95b38c84b031f10101
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 15:39:31 2020 +1100
+
+    finalised all pages, fixed bugs with links and fixed loader
+
+commit 7192c3439251302f8ed3fbeab5699de209f1ce0f
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 15:38:20 2020 +1100
+
+    fixed latest bugs, including footers, links and loader
+
+commit 02fe61bf62bc51caa6e0f9ef5ca0e77b6744e13f
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 04:42:54 2020 +1100
+
+    chaged form on contact page, added blog posts, fixed about me page, loader on portfolio stopped working
+
+commit b4540ea28ed8b5e84a9e360fbcbeff28f3908b43
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 00:23:58 2020 +1100
+
+    made about page, redone portfolio page, added working footer and social links to about me page, added card to about me page and resume link
+
+commit c2cd5d0b00d20a09c4eb8ea62b664b88e3710834
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sat Nov 14 17:34:32 2020 +1100
+
+    Preparing to be pushed to a remote repository at Github
+
+commit 8fbf7c7d65bf32735512dcd4ab878985665d39b3
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sat Nov 14 15:35:41 2020 +1100
+
+    moved css to scss and created partials for each page
+
+commit 80996bc7bd486f0a343335aeb9979c7f741c70fb
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sat Nov 14 14:01:08 2020 +1100
+
+    commitment to the previous versions which I didn't commit before
+
+commit 9857dab64452a15a0f5c10999e86f64fe1d5eeb9
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sat Nov 14 13:52:54 2020 +1100
+
+    created sass files for all paages
+
+commit a291789596458b263f5385c9c6c6d5fc48222352
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Fri Nov 13 13:27:28 2020 +1100
+
+    created sass file, made portfolio page and updated contacts page
+
+commit dced3bc27f4d349e30a3e6ed6e32343ab63476b2
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Thu Nov 12 23:29:55 2020 +1100
+
+    made a functional navbar, copied across the pages, made a responsive main page
+
+commit 72a955c1ab161c33c3e8ad607248a21d0ddfbe9b
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Thu Nov 12 09:31:11 2020 +1100
+
+    created nav bar
+
+commit 58a5fe236c290d7727f370acb0b66f18aa2dfa7a
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Fri Nov 6 23:56:48 2020 +1100
+
+    Made fist changes to index.html and style.css
+
+commit 195e190967591500634fcabaa4c0f4cb226184d7
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Thu Nov 5 16:18:52 2020 +1100
+
+    Created a normalised stylesheet
+
+commit 2c44c84bba7d11e76b9ca51ead5d93ed8e729622
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Thu Nov 5 16:07:09 2020 +1100
+
+    Created html files and style.css file
+
+commit 6ced22b239740ef78f5c8f0d7703f9466b522677
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Thu Nov 5 13:30:06 2020 +1100
+
+    Initial commit with README
