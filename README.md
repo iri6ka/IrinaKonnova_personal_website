@@ -47,39 +47,39 @@ The website consists of several pages: Index page (main), About Me, Portfolio, B
 
 ## **SITEMAP**
 
-[Sitemap](docs/sitemap.jpg?raw=true)
+[Sitemap](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/sitemap.jpg?raw=true)
 
 ## **SCREENSHOTS**
 
 ### Main page
 
-[Screenshot 1](docs/Screenshot-1.png)
+[Screenshot 1](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-1.png)
 
-[screenshot 2](docs/Screenshot-2.png)
+[screenshot 2](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-2.png)
 
 ### About page
 
-[Screenshot 3](docs/Screenshot-3.png)
+[Screenshot 3](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-3.png)
 
 ### Blog page
 
-[Screenshot 4](docs/Screenshot-4.png)
+[Screenshot 4](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-4.png)
 
-[Screenshot 5](docs/Screenshot-5.png)
+[Screenshot 5](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-5.png)
 
-[Screenshot 6](docs/Screenshot-6.png)
+[Screenshot 6](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-6.png)
 
 ### Portfolio page
 
-[Screenshot 7](docs/Screenshot-7.png)
+[Screenshot 7](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-7.png)
 
 ### Contact page
 
-[Screenshot 8](docs/Screenshot-8.png)
+[Screenshot 8](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/Screenshot-8.png)
 
 ### **Wireframes**
 
-[Wireframe](docs/wireframes-screenshot.jpg?raw=true)
+[Wireframe](https://raw.githubusercontent.com/iri6ka/IrinaKonnova_T1A2/main/docs/wireframes-screenshot.jpg?raw=true)
 
 Here is the link to the portfolio demo through [Figma](https://www.figma.com/proto/RFZ7cotiOs6SYXvhi0dcxI/Portfolio-website?node-id=9%3A108&scaling=min-zoom)
 
