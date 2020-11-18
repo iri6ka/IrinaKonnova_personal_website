@@ -1,3 +1,9 @@
+commit 6ad2cba17f9326ba370bbcfa12fea8e95ff64fbd
+Author: iri6ka <ikonnova@gmail.com>
+Date:   Sun Nov 15 18:59:37 2020 +1100
+
+    syncronised with remote repository, finalised project, fixed major bugs, loaded SRI
+
 commit d83cd7e945ba4f071779bd5aa5459561ecc0bc31
 Author: iri6ka <ikonnova@gmail.com>
 Date:   Sun Nov 15 18:02:22 2020 +1100
